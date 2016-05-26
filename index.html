@@ -168,7 +168,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a href="#" data-toggle="modal" data-target=".bs-Tw-modal-lg">
                                     <img class="img-portfolio img-responsive" src="img/Twitter.jpg">
                                 </a>
                             </div>
@@ -182,11 +182,16 @@
                         </div>
                         <div class="col-md-6">
                             <div class="portfolio-item">
-                                <a href="#">
+                                <a data-toggle="modal" data-target=".bs-Tw-modal-lg">
                                     <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg">
                                 </a>
                             </div>
                         </div>
+
+                        
+
+                        
+
                         <div class="col-md-6">
                             <div class="portfolio-item">
                                 <a href="#">
@@ -195,8 +200,82 @@
                             </div>
                         </div>
                     </div>
+
+
+<!-- Modals For Project Details -->
+
+                    <div class="modal fade bs-Tw-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                          <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                              <h4 class="modal-title" id="myLargeModalLabel" style="font-weight: bold;"> Twitter Replica | (Version 1,2,3)</h4>
+                              <h4 class="modal-content" style="font-weight: bold; color:red;">Basic Functionalities</h4>
+                              <p>
+                                  
+                                    Build a "Prototype of Twitter application" using Node.js based server and it should provide the following functionalities.
+
+                              </p>
+                              <p>
+                                  
+                                 <span style="font-weight: bold;"> a) Basic Users functionalities:</span> <br>
+1. Sign up new user (First name, last name, Email and password) <br>
+2. Sign in existing user <br>
+3. Sign out. Sign Up should have first name, last name, Email and password.<br>
+In order to use the system, a user must sign in first to the system.<br><br>
+<span style="font-weight: bold;">b) Users account should provide basic details such as:</span><br>
+1. About: User details, Work and education, contact info.<br>
+2. User can follow other users by searching their name or from suggestions provided.<br>
+3. Follower and following list. User should be able to see list of both..<br>
+4. User can choose a unique username to be displayed on profile.<br><br>
+<span style="font-weight: bold;">c) Provide Tweet functionality.</span><br>
+1. User can tweet and retweet.<br>
+2. User should search for tweets using hashtag and user should search for any other user by their name.<br>
+e) Should perform connection pooling for database access implemented on custom code based on our own algorithm.<br>
+The Service also take care of exception handling mechanism to ensure the security of the application.<br><br>
+
+<span style="font-weight: bold; align:left; color:blue;">Version 1 : </span><br>
+<span>• Developed Rest services using Node.js and DB as MYSQL .<br>
+• For UI part used Angular and Bootstrap .<br>
+• Wrote an algorithm for connection Pooling and compared load testing result with and without it for achieving perfomance .<br>
+• Testing for this project was done by JMeter, where 100,200,300,400,500 and 1000 concurrent users load was tested.
+</span><br>
+<br>
+
+
+<span style="font-weight: bold; align:left; color:blue;">Version 2 : </span><br>
+<span>• Developed Rest services using Node.js and DB as MongoDB .<br>
+• For UI part used Angular and Bootstrap .<br>
+• Reused an algorithm for connection Pooling and compared load testing result with and without it for achieving performance.
+<br>
+• Implemented Message Queuing through RabbitMQ. Followed Remote procedure calls in order to run functions on a remote computer and wait for the result.<br>
+• Testing for this project was done by JMeter, where 100,200,300,400,500 and 1000 concurrent users load was tested. Also tested using Mocha test Framework<br>
+
+</span><br>
+<br>
+
+
+
+<span style="font-weight: bold; align:left; color:blue;">Version 3 : </span><br>
+<span>• Developed SOAP based web services using JAX-WS (Java API for XML Web Services) and Apache Axis.<br>
+• For UI part used Angular and Bootstrap .</span><br>
+<br>
+
+<span style="font-weight: bold;">
+
+Find all 3 versions here
+<a href="https://github.com/vansh007/Twitter-Clone-Node-Angular-MySQL">Version 1</a> |
+<a href="https://github.com/vansh007/Twitter-Clone-MEAN-stack">Version 2</a> |
+<a href="https://github.com/vansh007/Twitter-Clone-Node.js-SOAP-web-services">Version 3</a>
+</span>
+
+
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+
+
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <a href="https://github.com/vansh007" class="btn btn-dark">View More Projects</a>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
