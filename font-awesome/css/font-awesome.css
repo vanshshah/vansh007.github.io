@@ -232,6 +232,9 @@
 .fa-file-o:before {
   content: "\f016";
 }
+.fa-download:before {
+  content: "\f019";
+}
 .fa-clock-o:before {
   content: "\f017";
 }
