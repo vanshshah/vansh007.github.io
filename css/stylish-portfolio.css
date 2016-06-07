@@ -215,12 +215,15 @@ hr.small {
 
 .bars {
     width: 95%;
-    float: left;
+    float: center;
     padding: 0;
-    text-align: left;
+    text-align: center;
 }
 .bars .skills {
     margin-top: 36px;
+    margin-left: 500px;
+    float: center;
+    text-align: center;
    list-style: none;
 }
 .bars li {
