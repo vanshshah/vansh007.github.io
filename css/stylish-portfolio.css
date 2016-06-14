@@ -29,6 +29,50 @@ body {
     font-weight: 700;
 }
 
+.row .three       { width: 25%; }
+
+
+.column, .columns {
+   position: relative;
+   padding: 0 20px;
+   min-height: 1px;
+   float: left;
+}
+.column.centered, .columns.centered  {
+    float: none;
+    margin: 0 auto;
+}
+.img-circle {
+    border-radius: 50%;
+     width: 120px;
+   height: 120px;
+
+}
+
+/* removed gutters */
+.row.collapsed > .column,
+.row.collapsed > .columns,
+.column.collapsed, .columns.collapsed  { padding: 0; }
+
+
+
+.column, .columns {
+     width: auto !important;
+     float: none;
+     margin-left: 0;
+     margin-right: 0;
+      padding: 0 30px;
+   }
+
+
+
+   #about .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
